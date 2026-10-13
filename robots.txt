@@ -1,0 +1,14 @@
+# robots.txt for Indo Vision Opticals
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://indovisionopticals.com/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 10
+
+# Disallow admin/private areas (none in static site)
+# Disallow: /assets/
+# Disallow: /app.js
+# Disallow: /style.css

@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+
+<html class="h-full" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Indo Vision Opticals | B2B Wholesale Portal</title>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&amp;family=Outfit:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "surface-bright": "#fff7fa",
+            "on-primary-fixed": "#3d0027",
+            "inverse-surface": "#342f32",
+            "on-surface": "#1e1a1d",
+            "primary": "#620041",
+            "surface-container-high": "#efe6ea",
+            "tertiary": "#735c00",
+            "on-tertiary-container": "#4f3d00",
+            "on-tertiary": "#ffffff",
+            "on-error": "#ffffff",
+            "primary-fixed": "#ffd8e7",
+            "on-surface-variant": "#55414a",
+            "background": "#fff7fa",
+            "surface-container-lowest": "#ffffff",
+            "primary-container": "#8a005d",
+            "on-error-container": "#93000a",
+            "surface-container-low": "#fbf1f5",
+            "surface-dim": "#e1d8dc",
+            "on-secondary-container": "#7a294e",
+            "inverse-on-surface": "#f8eef2",
+            "inverse-primary": "#ffafd4",
+            "surface-container-highest": "#e9e0e4",
+            "secondary-fixed-dim": "#ffb0cc",
+            "secondary": "#974066",
+            "on-secondary-fixed-variant": "#7a294e",
+            "surface-variant": "#e9e0e4",
+            "outline": "#88717a",
+            "on-tertiary-fixed-variant": "#574500",
+            "on-primary-container": "#ff92c9",
+            "error": "#ba1a1a",
+            "on-primary-fixed-variant": "#8a005d",
+            "surface": "#fff7fa",
+            "on-primary": "#ffffff",
+            "tertiary-fixed": "#ffe088",
+            "secondary-container": "#ff96be",
+            "on-secondary-fixed": "#3e0021",
+            "tertiary-fixed-dim": "#e9c349",
+            "outline-variant": "#dbbfca",
+            "tertiary-container": "#cca730",
+            "surface-tint": "#aa2776",
+            "primary-fixed-dim": "#ffafd4",
+            "on-secondary": "#ffffff",
+            "surface-container": "#f5ebf0",
+            "error-container": "#ffdad6",
+            "on-tertiary-fixed": "#241a00",
+            "secondary-fixed": "#ffd9e4",
+            "on-background": "#1e1a1d"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.125rem",
+            "lg": "0.25rem",
+            "xl": "0.5rem",
+            "full": "0.75rem"
+          },
+          "spacing": {
+            "margin-desktop": "3rem",
+            "gutter-mobile": "1rem",
+            "margin": "1.5rem",
+            "space-sm": "0.5rem",
+            "gutter": "1.5rem",
+            "margin-mobile": "1rem",
+            "space-2xl": "4rem",
+            "space-xl": "2.5rem",
+            "space-3xl": "6rem",
+            "space-xs": "0.25rem",
+            "gutter-desktop": "2rem",
+            "space-md": "1rem",
+            "space-lg": "1.5rem"
+          },
+          "fontFamily": {
+            "display-hero-mobile": ["Bodoni Moda"],
+            "headline-md": ["Bodoni Moda"],
+            "label-sm": ["Outfit"],
+            "body-sm": ["Outfit"],
+            "title-lg": ["Outfit"],
+            "headline-lg": ["Bodoni Moda"],
+            "label-md": ["Outfit"],
+            "headline-sm": ["Bodoni Moda"],
+            "title-md": ["Outfit"],
+            "headline-lg-mobile": ["Bodoni Moda"],
+            "label-lg": ["Outfit"],
+            "display-hero": ["Bodoni Moda"],
+            "body-md": ["Outfit"],
+            "body-lg": ["Outfit"]
+          },
+          "fontSize": {
+            "display-hero-mobile": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+            "headline-md": ["28px", { "lineHeight": "36px", "fontWeight": "500" }],
+            "label-sm": ["10px", { "lineHeight": "14px", "letterSpacing": "0.12em", "fontWeight": "600" }],
+            "body-sm": ["12px", { "lineHeight": "18px", "fontWeight": "400" }],
+            "title-lg": ["20px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+            "headline-lg": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.015em", "fontWeight": "500" }],
+            "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.08em", "fontWeight": "500" }],
+            "headline-sm": ["22px", { "lineHeight": "28px", "fontWeight": "500" }],
+            "title-md": ["16px", { "lineHeight": "24px", "letterSpacing": "0em", "fontWeight": "600" }],
+            "headline-lg-mobile": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "500" }],
+            "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.06em", "fontWeight": "600" }],
+            "display-hero": ["56px", { "lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "600" }],
+            "body-md": ["14px", { "lineHeight": "22px", "fontWeight": "400" }],
+            "body-lg": ["16px", { "lineHeight": "26px", "fontWeight": "400" }]
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-background text-on-background font-body-md antialiased selection:bg-primary-container selection:text-on-primary">
+<!-- TopNavBar -->
+<header class="docked full-width top-0 sticky z-50 bg-surface/80 dark:bg-inverse-surface/80 backdrop-blur-md shadow-sm dark:shadow-none border-b border-outline-variant/30 dark:border-outline/20">
+<div class="w-full px-6 lg:px-12 max-w-[1440px] mx-auto flex items-center justify-between py-4">
+<div class="flex items-center gap-3">
+<a class="flex items-center gap-2" href="#">
+<img class="w-10 h-10 object-contain rounded-sm" data-alt="Indo Vision Opticals luxury brand logo emblem featuring sophisticated serif typography and rich maroon primary tones with gold micro-details for high-end optical B2B wholesale platform." src="https://lh3.googleusercontent.com/aida/AEtjO1XLoJaz_GPgG1K9LUHPL1OnnxMoN_29e2JHdkx3qmO5Jx1OK0ORJbi5Jf4RVqwnkeXVKtwvBpoRAozvpgPVSNwflI1O0_MY2888JLN2NWKfor-fVjfArcPXYifF-GmjcHY6EYV5ZFqG8RRQBWtCMV1vJdySEu4WpmPTxag2iKXOqxC5NczNkAY7PtT_KebuLpwbzGPQh8DW1YlO0XZHuOBKCGXeqtgNWuygT1xnrcwDuVC_QfEjwOTW0Q"/>
+<span class="font-headline-md text-headline-md tracking-tight text-primary dark:text-primary-fixed">Indo Vision Opticals</span>
+</a>
+<span class="hidden xl:inline-block text-xs uppercase tracking-widest px-2 py-0.5 bg-primary-fixed text-on-primary-fixed rounded-sm font-label-md">B2B Wholesale Portal</span>
+</div>
+<nav class="hidden lg:flex items-center gap-8">
+<a class="text-on-surface-variant dark:text-inverse-on-surface hover:text-primary dark:hover:text-primary-fixed font-label-md text-label-md tracking-wide transition-colors" href="#catalog">Eyeglasses</a>
+<a class="text-on-surface-variant dark:text-inverse-on-surface hover:text-primary dark:hover:text-primary-fixed font-label-md text-label-md tracking-wide transition-colors" href="#catalog">Sunglasses</a>
+<a class="border-b-2 border-primary dark:border-primary-fixed text-primary dark:text-primary-fixed font-title-md text-title-md pb-1" href="#pricing-matrix">Tiered Pricing</a>
+<a class="text-on-surface-variant dark:text-inverse-on-surface hover:text-primary dark:hover:text-primary-fixed font-label-md text-label-md tracking-wide transition-colors" href="#lab-services">Lab Glazing Services</a>
+<a class="text-on-surface-variant dark:text-inverse-on-surface hover:text-primary dark:hover:text-primary-fixed font-label-md text-label-md tracking-wide transition-colors" href="#quote-section">Quick Quotation</a>
+<a class="text-on-surface-variant dark:text-inverse-on-surface hover:text-primary dark:hover:text-primary-fixed font-label-md text-label-md tracking-wide transition-colors flex items-center gap-1" href="https://wa.me/919848012345" target="_blank">
+<span class="material-symbols-outlined text-sm text-green-600">chat</span> WhatsApp support
+        </a>
+</nav>
+<div class="flex items-center gap-4">
+<div class="hidden sm:flex items-center gap-1 text-xs text-on-surface-variant font-label-md bg-surface-container px-3 py-1.5 rounded-lg border border-outline-variant/30">
+<span class="material-symbols-outlined text-sm text-primary">location_on</span>
+<span>Dilsukhnagar, Hyd</span>
+</div>
+<a class="bg-primary-container hover:bg-primary text-on-primary px-4 py-2 rounded-lg font-label-md text-label-md tracking-wide transition-all shadow-sm flex items-center gap-2" href="#quote-section">
+<span>Book Eye Test</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+</header>
+<!-- Hero Section -->
+<section class="relative overflow-hidden py-16 lg:py-24 bg-gradient-to-b from-surface-container-low to-background">
+<div class="w-full max-w-[1440px] mx-auto px-6 lg:px-12 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<div class="lg:col-span-7 flex flex-col gap-6">
+<div class="inline-flex items-center gap-2 px-3 py-1 bg-surface-container-high rounded-full w-fit border border-outline-variant/20">
+<span class="w-2 h-2 rounded-full bg-primary-container animate-pulse"></span>
+<span class="text-xs font-label-md uppercase tracking-wider text-primary">B2B Distributor Division • Telangana</span>
+</div>
+<h1 class="font-display-hero text-display-hero text-primary dark:text-primary-fixed tracking-tight leading-none">
+          Architectural Haute Couture for the Face.
+        </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
+          Empowering optical retailers across India with precision Japanese titanium frames, handmade Italian acetate collections, and high-index German robotic lab glazing with guaranteed GST invoicing.
+        </p>
+<div class="flex flex-wrap gap-4 pt-2">
+<a class="bg-primary-container hover:bg-primary text-on-primary px-6 py-3 rounded-lg font-label-lg text-label-lg transition-all shadow-md flex items-center gap-2" href="#pricing-matrix">
+<span>Explore Wholesale Catalog</span>
+<span class="material-symbols-outlined text-base">grid_view</span>
+</a>
+<a class="border border-primary text-primary hover:bg-primary hover:text-on-primary px-6 py-3 rounded-lg font-label-lg text-label-lg transition-all flex items-center gap-2" href="#lab-services">
+<span>Lab Glazing Services</span>
+<span class="material-symbols-outlined text-base">science</span>
+</a>
+</div>
+<div class="grid grid-cols-3 gap-6 pt-6 border-t border-outline-variant/20 mt-4">
+<div>
+<p class="font-headline-md text-headline-md text-primary">500+</p>
+<p class="font-body-sm text-on-surface-variant">B2B Partner Opticians</p>
+</div>
+<div>
+<p class="font-headline-md text-headline-md text-primary">0.03mm</p>
+<p class="font-body-sm text-on-surface-variant">Robotic Edge Precision</p>
+</div>
+<div>
+<p class="font-headline-md text-headline-md text-primary">100%</p>
+<p class="font-body-sm text-on-surface-variant">GST Compliant Input</p>
+</div>
+</div>
+</div>
+<div class="lg:col-span-5 relative">
+<div class="relative rounded-xl overflow-hidden shadow-2xl border border-outline-variant/30 bg-surface-container">
+<div class="absolute top-4 left-4 z-10 bg-white/80 dark:bg-inverse-surface/80 backdrop-blur-md px-3 py-1 rounded-sm border border-outline-variant/20 flex items-center gap-1.5 shadow-sm">
+<span class="material-symbols-outlined text-xs text-amber-600" style="font-variation-settings: 'FILL' 1;">workspace_premium</span>
+<span class="font-label-md text-xs text-on-surface">Handcrafted Acetate Series</span>
+</div>
+<div class="w-full h-[450px] bg-cover bg-center" data-alt="A striking professional product photography setup showcasing luxury optical frames crafted from Japanese titanium and Mazzucchelli acetate, displayed on a minimalist travertine stone pedestal with soft warm cinematic studio lighting and subtle reflection in an upscale optical showroom in Hyderabad." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuClv9cuwheg5yqdkB1iHK61N_qCl0FG6442m1gSjwf098vMksu0JOo0nK1oD06_VHiQYm9wLjMuPWXmgh0MWSLcWILaSRh_vUDCyfa-ELZ1Tc-SoUHvGY7vO1GoV7HAchGGvwjXw75I42mBRIEi1m7pY83gxlF0eNuJxAtNMnFRtKySh0VZQXs6VaySYExquDdD655kZ_j0bAOVBxYgUL26bSWM1iCSI2NgMmhNpWlC3vGman0Duw-KH8Rjg1JEAr_CO8eKuljtFkU')"></div>
+<div class="absolute bottom-4 right-4 z-10 bg-surface/90 backdrop-blur-md px-4 py-2 rounded-lg border border-outline-variant/30 shadow-lg">
+<p class="text-xs font-label-md text-on-surface-variant">MOQ Starts At</p>
+<p class="font-title-md text-primary">10 Pcs per SKU Mix</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- B2B Wholesale Frame Catalog Bento Grid -->
+<section class="py-20 w-full max-w-[1440px] mx-auto px-6 lg:px-12" id="catalog">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
+<div>
+<p class="font-label-md text-primary uppercase tracking-widest mb-2">Curated Collections</p>
+<h2 class="font-headline-lg text-headline-lg text-primary">B2B Wholesale Frame Catalog</h2>
+</div>
+<p class="font-body-md text-on-surface-variant max-w-md">
+        Select from our elite portfolio engineered for premium retail stores, ophthalmic clinics, and optical boutique chains across India.
+      </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Card 1 -->
+<div class="bg-surface-bright rounded-xl border border-outline-variant/20 p-6 flex flex-col justify-between hover:shadow-xl transition-all duration-300 group">
+<div>
+<div class="relative rounded-lg overflow-hidden mb-6 bg-surface-container-low h-64">
+<div class="absolute top-3 left-3 bg-white/90 backdrop-blur-md px-2.5 py-1 rounded-sm text-xs font-label-md text-primary border border-outline-variant/20">
+              Japanese Titanium
+            </div>
+<button class="absolute top-3 right-3 w-8 h-8 rounded-full bg-white/90 backdrop-blur-md flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-colors shadow-sm">
+<span class="material-symbols-outlined text-sm">favorite</span>
+</button>
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="Close up studio shot of ultra-lightweight Japanese beta-titanium optical frames in brushed rose gold and gunmetal finishes, resting on a clean minimalist slate surface with refined editorial lighting highlighting the temple engravings." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAcedsvYr0RRmcJWiL97M58FoKSkkmpYICvL6ABghIX5qWlxb9_ryeoR3_JNEzXyfZll2DTmaqYt8oxrXMEQTnnx7RG-wyHLB8TK8LWIUei8SG1WOUIGl4RdCmM_ypbRiUIrFOjy0qaT4uDgc6gSZA2cXqiagA3unF96jZtLbSh3xVIrlPk8Le9i86z6hsLpjhlOiC9ox4aRJJDrzyrJ6ZGx2BrSREaFjapYOgljF7QOBXdSWRlR9SuTxKfGqE3RHBQyFwsaxNH1m0')"></div>
+</div>
+<div class="flex justify-between items-start mb-2">
+<h3 class="font-title-lg text-title-lg text-on-surface">Titanium Minimalist Series</h3>
+<span class="font-title-md text-primary">₹2,450 onwards</span>
+</div>
+<p class="font-body-sm text-on-surface-variant mb-4">
+            Aero-grade beta titanium construction featuring screwless hinge architecture and hyper-flexible temples for ultimate durability.
+          </p>
+</div>
+<div class="pt-4 border-t border-outline-variant/20 flex items-center justify-between">
+<span class="text-xs font-label-md text-on-surface-variant">SKU: IV-B2B-801 to 803</span>
+<a class="text-xs font-label-md text-primary hover:underline flex items-center gap-1" href="#pricing-matrix">
+            View Tiers <span class="material-symbols-outlined text-xs">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface-bright rounded-xl border border-outline-variant/20 p-6 flex flex-col justify-between hover:shadow-xl transition-all duration-300 group">
+<div>
+<div class="relative rounded-lg overflow-hidden mb-6 bg-surface-container-low h-64">
+<div class="absolute top-3 left-3 bg-white/90 backdrop-blur-md px-2.5 py-1 rounded-sm text-xs font-label-md text-primary border border-outline-variant/20">
+              Handcrafted Acetate
+            </div>
+<button class="absolute top-3 right-3 w-8 h-8 rounded-full bg-white/90 backdrop-blur-md flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-colors shadow-sm">
+<span class="material-symbols-outlined text-sm">favorite</span>
+</button>
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="Detailed product photography of handmade Italian Mazzucchelli acetate optical frames in deep tortoiseshell and translucent burgundy tones, presented with professional studio lighting on a neutral backdrop." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAMcZ8_mOG5OdBI7joJTRmtFTwJMoNE70ffEyrKeBifgjUNynEApjWKDpTCDXaHlxLr85VOpIORmQM7J-xeQvhFjyu96QyZcLL2_4soGTB_pofVt5JKQR42YueITLJtm6nB1ptWGWIZzhoPOYkZsETsEX99MgNCytzV4WSeQAxcFrwt-fE5ap48orhBCsBo7H6lNHZC1ULAcBB_URMPa-jKTyEj6u1yi1whBkFzldCRURkLwchz4aDA7DSG-7Nj5j5VOkkEbC3bBoQ')"></div>
+</div>
+<div class="flex justify-between items-start mb-2">
+<h3 class="font-title-lg text-title-lg text-on-surface">Mazzucchelli Acetate Suite</h3>
+<span class="font-title-md text-primary">₹1,850 onwards</span>
+</div>
+<p class="font-body-sm text-on-surface-variant mb-4">
+            Hand-polished organic cotton cellulose acetate with multi-barrel Italian rivets and deep dimensional tortoiseshell gradients.
+          </p>
+</div>
+<div class="pt-4 border-t border-outline-variant/20 flex items-center justify-between">
+<span class="text-xs font-label-md text-on-surface-variant">SKU: IV-B2B-804 to 806</span>
+<a class="text-xs font-label-md text-primary hover:underline flex items-center gap-1" href="#pricing-matrix">
+            View Tiers <span class="material-symbols-outlined text-xs">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="bg-surface-bright rounded-xl border border-outline-variant/20 p-6 flex flex-col justify-between hover:shadow-xl transition-all duration-300 group">
+<div>
+<div class="relative rounded-lg overflow-hidden mb-6 bg-surface-container-low h-64">
+<div class="absolute top-3 left-3 bg-white/90 backdrop-blur-md px-2.5 py-1 rounded-sm text-xs font-label-md text-primary border border-outline-variant/20">
+              Memory Titanium
+            </div>
+<button class="absolute top-3 right-3 w-8 h-8 rounded-full bg-white/90 backdrop-blur-md flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-colors shadow-sm">
+<span class="material-symbols-outlined text-sm">favorite</span>
+</button>
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="High-end editorial shot of memory titanium optical frames bent to extreme angles demonstrating ultra-flexibility, set against an architectural gray minimalist background with dramatic soft lighting." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDXDdWIjDQxjblSo95YKjkf3eM6eVV2NRxXseQxFORfSs1mdU-NeaBJk41z-nZ4RI7beE_mw5WQ4ogVC26uxmATVuWda-82SOEl_thxFo4DPwm7yFXVGPFliZXl_LJ3KBhDZZt45Ug3UAnppzXZmtHzhJdzWPEkIlwJKdUguh5NLEob1TIDnG2LxfRG1VJ_858EsW-y4DROWgd_Drb1l2pDDcnIgetszcQA4T-YXedaf6PWCImxWDVMCtqIW_HzI38gsnJDyJH6k28')"></div>
+</div>
+<div class="flex justify-between items-start mb-2">
+<h3 class="font-title-lg text-title-lg text-on-surface">Shape-Memory Flex</h3>
+<span class="font-title-md text-primary">₹2,100 onwards</span>
+</div>
+<p class="font-body-sm text-on-surface-variant mb-4">
+            Nickel-titanium alloy bridge and temples engineered to retain original shape through high stress deformation tests.
+          </p>
+</div>
+<div class="pt-4 border-t border-outline-variant/20 flex items-center justify-between">
+<span class="text-xs font-label-md text-on-surface-variant">SKU: IV-B2B-807 to 809</span>
+<a class="text-xs font-label-md text-primary hover:underline flex items-center gap-1" href="#pricing-matrix">
+            View Tiers <span class="material-symbols-outlined text-xs">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Bulk Order & Tiered Pricing Matrix -->
+<section class="py-20 bg-surface-container-low border-y border-outline-variant/20" id="pricing-matrix">
+<div class="w-full max-w-[1440px] mx-auto px-6 lg:px-12">
+<div class="text-center max-w-3xl mx-auto mb-16">
+<p class="font-label-md text-primary uppercase tracking-widest mb-2">Transparent B2B Economics</p>
+<h2 class="font-headline-lg text-headline-lg text-primary mb-4">Tiered Wholesale Pricing Matrix</h2>
+<p class="font-body-lg text-on-surface-variant">
+          MOQ starts at 10 pieces per SKU. Benefit from automatic volume rebates calculated instantly for your optical retail replenishment orders.
+        </p>
+</div>
+<div class="bg-surface-bright rounded-xl border border-outline-variant/30 shadow-lg overflow-hidden">
+<div class="overflow-x-auto">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="bg-surface-container border-b border-outline-variant/30 font-label-md text-xs uppercase tracking-wider text-on-surface">
+<th class="py-4 px-6">Frame SKU &amp; Model</th>
+<th class="py-4 px-6">Material &amp; Finish</th>
+<th class="py-4 px-6 text-center">MOQ</th>
+<th class="py-4 px-6 text-right">Tier 1 (10-49 Pcs)</th>
+<th class="py-4 px-6 text-right">Tier 2 (50-199 Pcs)</th>
+<th class="py-4 px-6 text-right">Tier 3 (200+ Pcs)</th>
+<th class="py-4 px-6 text-center">Action</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-outline-variant/20 font-body-md">
+<tr class="hover:bg-surface-container-low transition-colors">
+<td class="py-4 px-6 font-title-md text-primary">IV-B2B-801</td>
+<td class="py-4 px-6 text-on-surface-variant">Japanese Titanium (Matte Gold)</td>
+<td class="py-4 px-6 text-center font-medium">10 Pcs</td>
+<td class="py-4 px-6 text-right font-medium">₹2,450</td>
+<td class="py-4 px-6 text-right font-medium text-emerald-700">₹2,150 <span class="text-xs block text-on-surface-variant">(-12%)</span></td>
+<td class="py-4 px-6 text-right font-bold text-primary">₹1,890 <span class="text-xs block text-on-surface-variant">(-22%)</span></td>
+<td class="py-4 px-6 text-center">
+<button class="px-3 py-1.5 bg-primary-container text-on-primary rounded text-xs font-label-md hover:bg-primary transition-colors" onclick="selectSKU('IV-B2B-801')">Add to Quote</button>
+</td>
+</tr>
+<tr class="hover:bg-surface-container-low transition-colors">
+<td class="py-4 px-6 font-title-md text-primary">IV-B2B-802</td>
+<td class="py-4 px-6 text-on-surface-variant">Beta Titanium (Gunmetal Finish)</td>
+<td class="py-4 px-6 text-center font-medium">10 Pcs</td>
+<td class="py-4 px-6 text-right font-medium">₹2,350</td>
+<td class="py-4 px-6 text-right font-medium text-emerald-700">₹2,050 <span class="text-xs block text-on-surface-variant">(-12%)</span></td>
+<td class="py-4 px-6 text-right font-bold text-primary">₹1,790 <span class="text-xs block text-on-surface-variant">(-23%)</span></td>
+<td class="py-4 px-6 text-center">
+<button class="px-3 py-1.5 bg-primary-container text-on-primary rounded text-xs font-label-md hover:bg-primary transition-colors" onclick="selectSKU('IV-B2B-802')">Add to Quote</button>
+</td>
+</tr>
+<tr class="hover:bg-surface-container-low transition-colors">
+<td class="py-4 px-6 font-title-md text-primary">IV-B2B-804</td>
+<td class="py-4 px-6 text-on-surface-variant">Mazzucchelli Acetate (Tortoiseshell)</td>
+<td class="py-4 px-6 text-center font-medium">10 Pcs</td>
+<td class="py-4 px-6 text-right font-medium">₹1,850</td>
+<td class="py-4 px-6 text-right font-medium text-emerald-700">₹1,620 <span class="text-xs block text-on-surface-variant">(-12%)</span></td>
+<td class="py-4 px-6 text-right font-bold text-primary">₹1,420 <span class="text-xs block text-on-surface-variant">(-23%)</span></td>
+<td class="py-4 px-6 text-center">
+<button class="px-3 py-1.5 bg-primary-container text-on-primary rounded text-xs font-label-md hover:bg-primary transition-colors" onclick="selectSKU('IV-B2B-804')">Add to Quote</button>
+</td>
+</tr>
+<tr class="hover:bg-surface-container-low transition-colors">
+<td class="py-4 px-6 font-title-md text-primary">IV-B2B-805</td>
+<td class="py-4 px-6 text-on-surface-variant">Mazzucchelli Acetate (Crystal Amber)</td>
+<td class="py-4 px-6 text-center font-medium">10 Pcs</td>
+<td class="py-4 px-6 text-right font-medium">₹1,900</td>
+<td class="py-4 px-6 text-right font-medium text-emerald-700">₹1,670 <span class="text-xs block text-on-surface-variant">(-12%)</span></td>
+<td class="py-4 px-6 text-right font-bold text-primary">₹1,460 <span class="text-xs block text-on-surface-variant">(-23%)</span></td>
+<td class="py-4 px-6 text-center">
+<button class="px-3 py-1.5 bg-primary-container text-on-primary rounded text-xs font-label-md hover:bg-primary transition-colors" onclick="selectSKU('IV-B2B-805')">Add to Quote</button>
+</td>
+</tr>
+<tr class="hover:bg-surface-container-low transition-colors">
+<td class="py-4 px-6 font-title-md text-primary">IV-B2B-807</td>
+<td class="py-4 px-6 text-on-surface-variant">Shape-Memory Alloy (Classic Black)</td>
+<td class="py-4 px-6 text-center font-medium">10 Pcs</td>
+<td class="py-4 px-6 text-right font-medium">₹2,100</td>
+<td class="py-4 px-6 text-right font-medium text-emerald-700">₹1,850 <span class="text-xs block text-on-surface-variant">(-12%)</span></td>
+<td class="py-4 px-6 text-right font-bold text-primary">₹1,620 <span class="text-xs block text-on-surface-variant">(-23%)</span></td>
+<td class="py-4 px-6 text-center">
+<button class="px-3 py-1.5 bg-primary-container text-on-primary rounded text-xs font-label-md hover:bg-primary transition-colors" onclick="selectSKU('IV-B2B-807')">Add to Quote</button>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="bg-surface-container px-6 py-4 flex flex-col sm:flex-row justify-between items-center gap-4 border-t border-outline-variant/30">
+<p class="text-xs font-body-sm text-on-surface-variant">All prices exclusive of applicable GST (12% optical standard). Free insured shipping across Telangana &amp; Andhra Pradesh on orders above ₹25,000.</p>
+<a class="bg-primary hover:bg-primary-container text-on-primary px-5 py-2 rounded-lg font-label-md text-label-md transition-all" href="#quote-section">Request Custom Bulk Quote</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Optical Lab Glazing & Custom Branding Services -->
+<section class="py-20 w-full max-w-[1440px] mx-auto px-6 lg:px-12" id="lab-services">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
+<div>
+<p class="font-label-md text-primary uppercase tracking-widest mb-2">Precision Infrastructure</p>
+<h2 class="font-headline-lg text-headline-lg text-primary mb-6">Optical Lab Glazing &amp; Custom Branding Services</h2>
+<p class="font-body-lg text-on-surface-variant mb-6">
+          Equip your retail clinic with turnkey glazing solutions. We cut, fit, and etch lenses in-house using state-of-the-art German robotic machinery with sub-micron precision.
+        </p>
+<div class="space-y-4">
+<div class="flex items-start gap-4 p-4 rounded-lg bg-surface-bright border border-outline-variant/20">
+<div class="w-10 h-10 rounded-lg bg-primary-fixed flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined">precision_manufacturing</span>
+</div>
+<div>
+<h3 class="font-title-md text-on-surface">0.03mm German Robotic Lens Cutting</h3>
+<p class="font-body-sm text-on-surface-variant mt-1">HPE-class edgers ensure zero frame distortion, perfect bevel seating, and flawless multi-focal centration.</p>
+</div>
+</div>
+<div class="flex items-start gap-4 p-4 rounded-lg bg-surface-bright border border-outline-variant/20">
+<div class="w-10 h-10 rounded-lg bg-primary-fixed flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined">verified</span>
+</div>
+<div>
+<h3 class="font-title-md text-on-surface">Free Laser Etching with Clinic Logo</h3>
+<p class="font-body-sm text-on-surface-variant mt-1">Reinforce your store brand by watermarking your optical clinic logo discreetly onto demo or prescription lenses.</p>
+</div>
+</div>
+<div class="flex items-start gap-4 p-4 rounded-lg bg-surface-bright border border-outline-variant/20">
+<div class="w-10 h-10 rounded-lg bg-primary-fixed flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined">style</span>
+</div>
+<div>
+<h3 class="font-title-md text-on-surface">Custom Case &amp; Microfiber Branding</h3>
+<p class="font-body-sm text-on-surface-variant mt-1">Receive fully customized hard leatherette cases and embossed microfiber pouches featuring your store name and details.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="relative">
+<div class="rounded-xl overflow-hidden shadow-2xl border border-outline-variant/30 bg-surface-container relative">
+<div class="w-full h-[500px] bg-cover bg-center" data-alt="Advanced robotic optical lens edging laboratory featuring high-tech German CNC glazing equipment cutting progressive ophthalmic lenses with high-precision coolant streams in a clinical, brightly lit environment." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDPhZWnhYxuGDwaSgKH06PI-Agfj8gcoMxU2WOrpK5UjX2-afXBkZCEYclDZiYE89i1JYISCY4FcfZKm9tt9ArYtLpa8kyHjkUToegAUIBkdvzMfDnmRvQ-lpOsmW1aCESvkM4x7OGZjMDNAAwWdqbiAA5cvGweQH3HK4EIIZ9K-twIHSDXxI3ymGByA1Lqv7czKdSxWnKMYy9mApKwU3X0a66e7BjIapRkptw_RUKEv_RVDVUAaKvuCZFaFEvogz6hK-u4kFrKocE')"></div>
+<div class="absolute bottom-6 left-6 right-6 bg-surface/90 backdrop-blur-md p-6 rounded-lg border border-outline-variant/30 shadow-lg">
+<div class="flex justify-between items-center mb-2">
+<h4 class="font-title-md text-primary">Turnaround Time SLA</h4>
+<span class="px-2 py-0.5 bg-primary-fixed text-on-primary-fixed text-xs font-label-md rounded">24-48 Hours</span>
+</div>
+<p class="font-body-sm text-on-surface-variant">Express lab glazing dispatched with QC inspection certificate and prescription verification report.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Quick Quotation Request Form & Direct WhatsApp/Call B2B desk -->
+<section class="py-20 bg-inverse-surface text-inverse-on-surface relative overflow-hidden" id="quote-section">
+<div class="absolute inset-0 opacity-10 bg-[radial-gradient(#d4af37_1px,transparent_1px)] [background-size:16px_16px]"></div>
+<div class="w-full max-w-[1440px] mx-auto px-6 lg:px-12 relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+<div class="lg:col-span-5 flex flex-col gap-6">
+<p class="font-label-md text-primary-fixed uppercase tracking-widest">Instant Estimation Desk</p>
+<h2 class="font-headline-lg text-headline-lg text-inverse-on-surface">Request a B2B Custom Quotation</h2>
+<p class="font-body-lg text-inverse-on-surface/80">
+            Submit your retail store requirements, SKU assortments, or prescription lab glazing volumes. Our dedicated Dilsukhnagar B2B desk will dispatch an itemized GST quotation within 2 hours.
+          </p>
+<div class="space-y-4 pt-4">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-primary-container/30 border border-primary-fixed/30 flex items-center justify-center text-primary-fixed">
+<span class="material-symbols-outlined">call</span>
+</div>
+<div>
+<p class="text-xs font-label-md text-inverse-on-surface/60">Direct B2B Hotline (Hyderabad)</p>
+<p class="font-title-md text-primary-fixed">+91 98480 12345 / +91 40 2405 7890</p>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-primary-container/30 border border-primary-fixed/30 flex items-center justify-center text-primary-fixed">
+<span class="material-symbols-outlined">chat</span>
+</div>
+<div>
+<p class="text-xs font-label-md text-inverse-on-surface/60">WhatsApp B2B Instant Desk</p>
+<a class="font-title-md text-primary-fixed hover:underline" href="https://wa.me/919848012345" target="_blank">Chat with Wholesale Manager →</a>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-primary-container/30 border border-primary-fixed/30 flex items-center justify-center text-primary-fixed">
+<span class="material-symbols-outlined">storefront</span>
+</div>
+<div>
+<p class="text-xs font-label-md text-inverse-on-surface/60">Showroom Address</p>
+<p class="font-body-md text-inverse-on-surface">Main Road, Dilsukhnagar, Hyderabad, Telangana 500060</p>
+</div>
+</div>
+</div>
+</div>
+<div class="lg:col-span-7 bg-surface text-on-surface p-8 lg:p-10 rounded-xl shadow-2xl border border-outline-variant/30">
+<h3 class="font-headline-md text-headline-md text-primary mb-6">Bulk Order Inquiry Form</h3>
+<form class="space-y-6" onsubmit="event.preventDefault(); alert('Quotation request submitted successfully! Our B2B desk will contact you shortly.');">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div>
+<label class="block font-label-md text-xs uppercase tracking-wider text-on-surface-variant mb-2">Optical Store / Clinic Name *</label>
+<input class="w-full bg-surface-container-low border border-outline-variant/40 rounded-lg px-4 py-3 text-on-surface focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary" placeholder="e.g., Vision Care Opticians" required="" type="text"/>
+</div>
+<div>
+<label class="block font-label-md text-xs uppercase tracking-wider text-on-surface-variant mb-2">Contact Person Name *</label>
+<input class="w-full bg-surface-container-low border border-outline-variant/40 rounded-lg px-4 py-3 text-on-surface focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary" placeholder="e.g., Rajesh Sharma" required="" type="text"/>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div>
+<label class="block font-label-md text-xs uppercase tracking-wider text-on-surface-variant mb-2">Phone Number (WhatsApp) *</label>
+<input class="w-full bg-surface-container-low border border-outline-variant/40 rounded-lg px-4 py-3 text-on-surface focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary" placeholder="+91 98765 43210" required="" type="tel"/>
+</div>
+<div>
+<label class="block font-label-md text-xs uppercase tracking-wider text-on-surface-variant mb-2">GSTIN Number (For Tax Invoice)</label>
+<input class="w-full bg-surface-container-low border border-outline-variant/40 rounded-lg px-4 py-3 text-on-surface focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary" placeholder="36AAAAA0000A1Z5" type="text"/>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div>
+<label class="block font-label-md text-xs uppercase tracking-wider text-on-surface-variant mb-2">Select Primary Interest</label>
+<select class="w-full bg-surface-container-low border border-outline-variant/40 rounded-lg px-4 py-3 text-on-surface focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary" id="selected-sku-input">
+<option>Titanium Minimalist Series (IV-B2B-801)</option>
+<option>Mazzucchelli Acetate Suite (IV-B2B-804)</option>
+<option>Shape-Memory Flex (IV-B2B-807)</option>
+<option>Full Catalog Assortment (Mixed SKUs)</option>
+<option>Lab Glazing &amp; Custom Branding Service</option>
+</select>
+</div>
+<div>
+<label class="block font-label-md text-xs uppercase tracking-wider text-on-surface-variant mb-2">Estimated Quantity (Pcs)</label>
+<input class="w-full bg-surface-container-low border border-outline-variant/40 rounded-lg px-4 py-3 text-on-surface focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary" min="10" type="number" value="20"/>
+</div>
+</div>
+<div>
+<label class="block font-label-md text-xs uppercase tracking-wider text-on-surface-variant mb-2">Specific Requirements / Prescription Lab Notes</label>
+<textarea class="w-full bg-surface-container-low border border-outline-variant/40 rounded-lg px-4 py-3 text-on-surface focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary" placeholder="Mention custom lens index (1.56, 1.60, 1.67) or custom branding logo details..." rows="3"></textarea>
+</div>
+<button class="w-full py-4 bg-primary-container hover:bg-primary text-on-primary rounded-lg font-label-lg text-label-lg tracking-wide transition-all shadow-md flex items-center justify-center gap-2" type="submit">
+<span>Generate Instant B2B Quotation</span>
+<span class="material-symbols-outlined text-base">arrow_forward</span>
+</button>
+</form>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-inverse-surface dark:bg-inverse-surface text-inverse-on-surface border-t border-outline/20">
+<div class="w-full max-w-[1440px] mx-auto px-6 lg:px-12 py-16 flex flex-col gap-12">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+<div class="flex flex-col gap-4">
+<div class="font-headline-lg text-headline-lg text-inverse-on-surface dark:text-inverse-on-surface">Indo Vision Opticals</div>
+<p class="font-body-sm text-inverse-on-surface/70">
+            Premier B2B wholesale distributor and ophthalmic laboratory headquartered in Dilsukhnagar, Hyderabad, delivering architectural haute couture frames and precision German glazing across India.
+          </p>
+<div class="flex items-center gap-3 pt-2">
+<span class="px-2.5 py-1 bg-surface-container/20 rounded text-xs font-label-sm text-primary-fixed">GST Compliant</span>
+<span class="px-2.5 py-1 bg-surface-container/20 rounded text-xs font-label-sm text-primary-fixed">Telangana Distributor</span>
+</div>
+</div>
+<div class="flex flex-col gap-3">
+<p class="font-title-md text-primary-fixed mb-2">B2B Wholesale Portal</p>
+<a class="text-inverse-on-surface/70 hover:text-primary-fixed font-body-sm transition-colors" href="#catalog">Bespoke Lens Technology</a>
+<a class="text-inverse-on-surface/70 hover:text-primary-fixed font-body-sm transition-colors" href="#catalog">Prescription Verification</a>
+<a class="text-inverse-on-surface/70 hover:text-primary-fixed font-body-sm transition-colors" href="#quote-section">Book Clinical Eye Exam</a>
+<a class="text-inverse-on-surface/70 hover:text-primary-fixed font-body-sm transition-colors" href="#lab-services">Virtual Try-On Suite</a>
+</div>
+<div class="flex flex-col gap-3">
+<p class="font-title-md text-primary-fixed mb-2">Services &amp; Compliance</p>
+<a class="text-inverse-on-surface/70 hover:text-primary-fixed font-body-sm transition-colors" href="#lab-services">Corporate &amp; Wholesale</a>
+<a class="text-inverse-on-surface/70 hover:text-primary-fixed font-body-sm transition-colors" href="#quote-section">Store Locator: Hyderabad</a>
+<a class="text-inverse-on-surface/70 hover:text-primary-fixed font-body-sm transition-colors" href="#">Optical Warranty &amp; Care</a>
+<a class="text-inverse-on-surface/70 hover:text-primary-fixed font-body-sm transition-colors" href="#">Privacy Policy &amp; Terms</a>
+</div>
+<div class="flex flex-col gap-3">
+<p class="font-title-md text-primary-fixed mb-2">Hyderabad Hub</p>
+<p class="font-body-sm text-inverse-on-surface/70">
+            Indo Vision Opticals Pvt Ltd<br/>
+            Main Road, Near Metro Station<br/>
+            Dilsukhnagar, Hyderabad, 500060<br/>
+            Telangana, India
+          </p>
+<p class="font-body-sm text-primary-fixed pt-2">GSTIN: 36AABCI1234F1Z9</p>
+</div>
+</div>
+<div class="pt-8 border-t border-outline/20 flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
+<p class="font-body-sm text-inverse-on-surface/70">
+          © 2024 Indo Vision Opticals Pvt Ltd. All rights reserved. Crafted with precision in Dilsukhnagar, Hyderabad.
+        </p>
+<div class="flex items-center gap-6">
+<a class="text-inverse-on-surface/70 hover:text-primary-fixed text-xs font-body-sm" href="#">Terms of B2B Supply</a>
+<a class="text-inverse-on-surface/70 hover:text-primary-fixed text-xs font-body-sm" href="#">GST Invoice Guarantee</a>
+<a class="text-inverse-on-surface/70 hover:text-primary-fixed text-xs font-body-sm" href="https://wa.me/919848012345" target="_blank">WhatsApp Desk</a>
+</div>
+</div>
+</div>
+</footer>
+<script>
+    function selectSKU(skuCode) {
+      const selectElem = document.getElementById('selected-sku-input');
+      for (let i = 0; i < selectElem.options.length; i++) {
+        if (selectElem.options[i].text.includes(skuCode)) {
+          selectElem.selectedIndex = i;
+          break;
+        }
+      }
+      const quoteSection = document.getElementById('quote-section');
+      quoteSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+</body></html>
