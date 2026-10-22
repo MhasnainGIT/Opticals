@@ -2,45 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://indovisionopticals.com/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <loc>https://indovisionopticals.store/</loc>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://indovisionopticals.com/#home</loc>
-    <lastmod>2026-10-13</lastmod>
+    <loc>https://indovisionopticals.store/#home</loc>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://indovisionopticals.com/#categories</loc>
-    <lastmod>2026-10-13</lastmod>
+    <loc>https://indovisionopticals.store/#categories</loc>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://indovisionopticals.com/#featuredCollection</loc>
-    <lastmod>2026-10-13</lastmod>
+    <loc>https://indovisionopticals.store/#featuredCollection</loc>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://indovisionopticals.com/#eyeTest</loc>
-    <lastmod>2026-10-13</lastmod>
+    <loc>https://indovisionopticals.store/#eyeTest</loc>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://indovisionopticals.com/#storeLocator</loc>
-    <lastmod>2026-10-13</lastmod>
+    <loc>https://indovisionopticals.store/#storeLocator</loc>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://indovisionopticals.com/#reviews</loc>
-    <lastmod>2026-10-13</lastmod>
+    <loc>https://indovisionopticals.store/#reviews</loc>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://indovisionopticals.store/#faq</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>
